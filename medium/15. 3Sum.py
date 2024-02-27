@@ -2,10 +2,12 @@ from typing import List
 
 
 def threeSum(nums: List[int]) -> List[List[int]]:
-	low = 0
-	mid = len(nums) // 2
+	start = 0
+	low = 1
 	high = len(nums) - 1
 	result = []
+	while start + 2 <= high:
+		if nums[start] + nums[low] +
 	
 
 
